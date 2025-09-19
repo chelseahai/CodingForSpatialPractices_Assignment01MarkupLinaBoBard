@@ -1,0 +1,104 @@
+/* 
+Color Palette for "Houses or Museums?" by Lina Bo Bardi
+
+Attributes:
+- Architectural: Structural, geometric, foundational
+- Educational: Didactic, informative, scholarly
+- Cultural: Heritage, artistic, intellectual
+- Minimalist: Clean, uncluttered, focused
+
+Selected Colors:
+1. Primary: Warm Stone (#F5F3F0) - Off-white background reflecting architectural materials
+2. Secondary: Deep Charcoal (#2C2C2C) - Near-black text for strong contrast and readability
+3. Accent: Architectural Blue (#4A6B8A) - Sophisticated blue reflecting institutional authority
+
+Rationale:
+- Warm Stone provides a sophisticated, paper-like background that's easier on the eyes than pure white
+- Deep Charcoal ensures excellent readability while avoiding harsh pure black
+- Architectural Blue adds institutional gravitas appropriate for museum/architectural discourse
+*/
+
+/* Typography System */
+body {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.68em;
+    background-color: #F5F3F0;
+    color: #2C2C2C;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1.2em;
+    color: #4A6B8A;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 1.75em;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #2C2C2C;
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #4A6B8A;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.68em;
+    color: #2C2C2C;
+}
+
+.author {
+    font-family: 'Georgia', serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.68em;
+    color: #4A6B8A;
+}
+
+time {
+    font-family: 'Georgia', serif;
+    font-size: 0.75em;
+    font-weight: 300;
+    line-height: 1.68em;
+    color: #2C2C2C;
+}
+
+em {
+    font-family: 'Georgia', serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.68em;
+    color: #2C2C2C;
+}
+
+a {
+    font-family: 'Georgia', serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.68em;
+    color: #4A6B8A;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+    border: 2px solid #2C2C2C;
+    box-sizing: border-box;
+}
